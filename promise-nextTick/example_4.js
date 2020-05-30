@@ -6,7 +6,7 @@ let count = 0;
 function rec() {
   count += 1;
 
-  if (count === 2000000)
+  if (count === 20000000)
     return; // finish rec
 
   process.nextTick(rec);
