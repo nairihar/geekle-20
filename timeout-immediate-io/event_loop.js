@@ -2,6 +2,10 @@ const fs = require('fs');
 
 setTimeout(() => {
   console.log('setTimeout');
+
+  setTimeout(() => {
+    console.log('setTimeout');
+  }, 50);
 }, 50);
 
 
